@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olímpio - Autêntico Sabor de Bombinhas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-fish"></i>
+                <span>Olímpio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#cardapio" class="nav-link">Cardápio</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Olímpio</h1>
+            <p class="subtitle">O mais raiz de Bombinhas</p>
+            <p class="description">Autêntico sabor de frutos do mar que representa a essência da cidade</p>
+            <button class="btn btn-primary" onclick="document.querySelector('#contato').scrollIntoView({behavior: 'smooth'})">
+                Fale Conosco
+            </button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Sobre o Restaurante -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Bem-vindo ao Olímpio</h2>
+                    <p>No coração de Bombinhas, na Rua Tucano, 55, encontra-se o restaurante mais autêntico da cidade. Olímpio é mais do que um lugar para comer - é uma experiência que traduz a essência cultural de Bombinhas através de cada prato.</p>
+                    
+                    <p>Nossos peixes são frescos, selecionados diariamente, representando os melhores frutos do mar que o litoral de Santa Catarina tem a oferecer. Cada refeição é uma celebração da tradição piscatória local.</p>
+
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-water"></i>
+                            <h3>Frutos do Mar Frescos</h3>
+                            <p>Selecionados diariamente</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Receitas Tradicionais</h3>
+                            <p>Cultura de Bombinhas</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <h3>Ambiente Acolhedor</h3>
+                            <p>Raiz e autêntico</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-fish"></i>
+                        <p>Foto do Restaurante</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cardápio Destaque -->
+    <section id="cardapio" class="menu">
+        <div class="container">
+            <h2>Nossas Especialidades</h2>
+            <p class="section-subtitle">Os melhores peixes que você não pode deixar de provar</p>
+
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Moqueca de Peixe</h3>
+                    <p>Peixe fresco em um caldo aromático com leite de coco, tomate e especiarias que resgatam a tradição</p>
+                    <span class="price">R$ 85,00</span>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <i class="fas fa-shrimp"></i>
+                    </div>
+                    <h3>Camarão na Brasa</h3>
+                    <p>Camarões suculentos grelhados na brasa com manteiga de alho e limão siciliano</p>
+                    <span class="price">R$ 95,00</span>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Peixe Inteiro na Sal</h3>
+                    <p>Peixe assado inteiro, temperado com ervas frescas, servido com limão e azeite extra virgem</p>
+                    <span class="price">R$ 120,00</span>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Caldeirada de Frutos do Mar</h3>
+                    <p>Mistura generosa de peixes, camarões e moluscos em um caldo tradicional</p>
+                    <span class="price">R$ 110,00</span>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <i class="fas fa-shrimp"></i>
+                    </div>
+                    <h3>Polvo à Milanesa</h3>
+                    <p>Polvo macio empanado e frito até ficar crocante, servido com limão fresco</p>
+                    <span class="price">R$ 105,00</span>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Robalo Grelhado</h3>
+                    <p>Filete de robalo grelhado com vegetais frescos e molho de limão</p>
+                    <span class="price">R$ 95,00</span>
+                </div>
+            </div>
+
+            <button class="btn btn-secondary">Ver Cardápio Completo</button>
+        </div>
+    </section>
+
+    <!-- Informações de Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Visite o Olímpio</h2>
+            <p class="section-subtitle">Estamos esperando você em Bombinhas</p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Localização</h3>
+                    <p>Rua Tucano, 55</p>
+                    <p>Bombinhas, Santa Catarina</p>
+                    <p>88215-000</p>
+                    <a href="https://maps.google.com/?q=Rua+Tucano+55+Bombinhas+SC" target="_blank" class="link-button">Ver no Mapa</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telefone</h3>
+                    <p>(47) 99232-8855</p>
+                    <a href="tel:+5547992328855" class="link-button">Ligar Agora</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horário</h3>
+                    <p>Segunda a Quinta: 11h - 22h</p>
+                    <p>Sexta a Domingo: 11h - 23h</p>
+                    <p class="note">Aberto todos os dias</p>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <h3>Deixe sua Mensagem</h3>
+                <div class="form-group">
+                    <input type="text" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Seu Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Restaurante Olímpio. O melhor e mais raiz de Bombinhas.</p>
+            <div class="social-links">
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
